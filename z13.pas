@@ -13,5 +13,6 @@ begin
     if s[i] = 'b' then b:=True;
     if s[i] = 'c' then c:=True;
   end;
-  if (a = True) and (b = True) and (c = True) then writeln('Строка содержит символы: "а", "b", "c"');
+  if (a = True) and (b = True) and (c = True) then writeln('Строка содержит символы: "а", "b", "c"')
+  else writeln('Строка не содержит символы: "а", "b", "c"');
 end.
